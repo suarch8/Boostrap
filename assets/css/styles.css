@@ -14,11 +14,11 @@ h1, h2 {
 
 /* Ajuste para el Carrusel */
 .carousel-item img {
-    height: 450px; /* Altura fija para el carrusel superior */
+    height: 450px; 
     object-fit: cover;
 }
 
-/* Footer pegado al final si hay poco contenido */
+
 body {
     display: flex;
     flex-direction: column;
