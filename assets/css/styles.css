@@ -1,0 +1,26 @@
+.bg-aysen {
+    background-color: #f0f8ff;
+}
+
+h1, h2 {
+    color: #b91d1d !important;
+}
+
+.img-principal {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Ajuste para el Carrusel */
+.carousel-item img {
+    height: 450px; /* Altura fija para el carrusel superior */
+    object-fit: cover;
+}
+
+/* Footer pegado al final si hay poco contenido */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
